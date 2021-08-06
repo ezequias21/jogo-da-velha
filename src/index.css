@@ -1,0 +1,97 @@
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  background: linear-gradient(#BBD2C5, #536976);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+/* .board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+} */
+.board-row:nth-child(2) button{
+ border-bottom: 12px solid #4d4d4d;
+}
+.board-row:nth-child(3) button{
+ border-bottom: 12px solid #4d4d4d;
+}
+
+.board-row:nth-child(2) button:first{
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(3) .square:first{
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(4) button:first{
+  border-right: 12px solid #4d4d4d;
+}
+
+
+
+.status {
+  margin-bottom: 80px;
+    color: #ddd;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.square {
+  background: transparent;
+  border: none;
+  float: left;
+  font-size: 78px;
+  font-weight: bold;
+  line-height: 34px;
+  height:150px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 150px;
+  color: #ddd;
+}
+
+.board-row:nth-child(2) button:nth-child(1){
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(3) button:nth-child(1){
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(4) button:nth-child(1){
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(2) button:nth-child(2){
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(3) button:nth-child(2){
+  border-right: 12px solid #4d4d4d;
+}
+.board-row:nth-child(4) button:nth-child(2){
+  border-right: 12px solid #4d4d4d;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
