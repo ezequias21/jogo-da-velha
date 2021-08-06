@@ -16,20 +16,20 @@ ol, ul {
   content: "";
   display: table;
 } */
+.board-row:nth-child(1) button{
+ border-bottom: 12px solid #4d4d4d;
+}
 .board-row:nth-child(2) button{
  border-bottom: 12px solid #4d4d4d;
 }
-.board-row:nth-child(3) button{
- border-bottom: 12px solid #4d4d4d;
-}
 
-.board-row:nth-child(2) button:first{
+.board-row:nth-child(1) button:first{
   border-right: 12px solid #4d4d4d;
 }
-.board-row:nth-child(3) .square:first{
+.board-row:nth-child(2) .square:first{
   border-right: 12px solid #4d4d4d;
 }
-.board-row:nth-child(4) button:first{
+.board-row:nth-child(3) button:first{
   border-right: 12px solid #4d4d4d;
 }
 
@@ -60,22 +60,22 @@ ol, ul {
   color: #ddd;
 }
 
+.board-row:nth-child(1) button:nth-child(1){
+  border-right: 12px solid #4d4d4d;
+}
 .board-row:nth-child(2) button:nth-child(1){
   border-right: 12px solid #4d4d4d;
 }
 .board-row:nth-child(3) button:nth-child(1){
   border-right: 12px solid #4d4d4d;
 }
-.board-row:nth-child(4) button:nth-child(1){
+.board-row:nth-child(1) button:nth-child(2){
   border-right: 12px solid #4d4d4d;
 }
 .board-row:nth-child(2) button:nth-child(2){
   border-right: 12px solid #4d4d4d;
 }
 .board-row:nth-child(3) button:nth-child(2){
-  border-right: 12px solid #4d4d4d;
-}
-.board-row:nth-child(4) button:nth-child(2){
   border-right: 12px solid #4d4d4d;
 }
 
@@ -88,8 +88,8 @@ ol, ul {
 }
 
 .game {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .game-info {
